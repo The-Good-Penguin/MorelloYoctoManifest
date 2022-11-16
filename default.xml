@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+    <remote fetch="https://github.com/The-Good-Penguin/" name ="tgp"/>
+    <project remote="yocto" dest-branch="kirkstone" revision="1cb13d24b592986a44fd653e083b7711513fc916" name="poky" path="poky"/>
+    <project remote="yocto" dest-branch="kirkstone" revision="67578fcfcd8ee8efcaef67ed7db1dfd55105872e" name="meta-arm" path="poky/meta-arm"/>
+    <project remote="tgp" revision="kirkstone" name="meta-morello" path="poky/meta-morello"/>
+</manifest>
